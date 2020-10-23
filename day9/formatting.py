@@ -8,5 +8,4 @@ to have you with us
 
 def format_msg(myname="justin", mywebsite="cfe.net"):
     mymsg = msg_template.format(name=myname, website=mywebsite)
-    print(mymsg)
     return mymsg
